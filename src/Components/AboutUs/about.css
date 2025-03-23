@@ -6,7 +6,8 @@
 }
 
 .about-intro{
-    width: 80%;
+    width: 70%;
+    padding-left: 10%;
     padding-top: 40vh;
     font-size: 3.5rem;
     color: white;

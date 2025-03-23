@@ -18,7 +18,7 @@ export default function Nav() {
                         <FontAwesomeIcon className="icc" icon={faXmark} />
                     </label>
                     <a href="#home">Home</a>
-                    <a href="#">About Us</a>
+                    <a href="#about">About Us</a>
                     <a href="#">Works</a>
                     <a href="#">Services</a>
                     <a href="#">Contact</a>
