@@ -19,9 +19,9 @@ export default function Nav() {
                     </label>
                     <a href="#home">Home</a>
                     <a href="#about">About Us</a>
-                    <a href="#">Works</a>
-                    <a href="#">Services</a>
-                    <a href="#">Contact</a>
+                    <a href="#work">Works</a>
+                    <a href="#service">Services</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </nav>
         </header>

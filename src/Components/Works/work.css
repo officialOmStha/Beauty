@@ -1,0 +1,29 @@
+.work-container {
+    width: 100%;
+    height: 100vh;
+    padding-left: 10%;
+    background-color: rgb(131, 84, 15);
+}
+
+.work-intro {
+    text-align: left;
+    width: 90%;
+    padding-top: 20vh;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+@media(max-width: 600px) {
+    .work-container {
+        width: 100%;
+        padding: 10vh 5%;
+    }
+
+    .work-intro{
+        padding: 0 0;
+        width: 90%;
+        font-size: 1.7rem;
+    }
+
+}
