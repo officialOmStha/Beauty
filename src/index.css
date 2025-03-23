@@ -22,9 +22,16 @@
   padding-top: 40vh;
 }
 
-.experiment{
-  height: 100vh;
-  width: 100%;
-  background-color: aqua;
-}
 
+
+@media(max-width: 600px){
+  .home-container{
+    padding: 5px 5px;
+  }
+  
+  .home-intro{
+    width: 90%;
+    font-size: 1.7rem;
+    padding: 100px 10px;
+  }
+}
