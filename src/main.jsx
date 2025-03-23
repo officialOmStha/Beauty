@@ -4,10 +4,12 @@ import React from "react"
 import './index.css'
 import Nav from "./Components/Nav/NavBar"
 import Home from "./Components/Home/Home"
+import About from "./Components/AboutUs/About"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Nav />
     <Home />
+    <About />
   </StrictMode>,
 )

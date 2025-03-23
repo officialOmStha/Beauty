@@ -11,7 +11,7 @@ header{
     background-color: orange;   
     height: 10vh;
     padding-left: 10%;
-    gap: 35%;
+    gap: 30%;
     align-items: center;
 }
 
@@ -19,7 +19,7 @@ nav{
     height: 100%;
     display: flex;
     justify-content: flex-end;
-    width: 60%;
+    width: 50%;
     align-items: center;
 }
 
