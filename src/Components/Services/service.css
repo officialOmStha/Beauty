@@ -7,7 +7,7 @@
 
 .service-intro{
     width: 70%;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-top: 40vh;
     padding-bottom: 6px;
     font-size: 3.5rem;
@@ -17,7 +17,7 @@
 
 .service-intro li{
     font-size: 1.8rem;
-    padding: 6px 0;
+    padding: 6px 5%;
 }
 
 @media(max-width: 600px){
