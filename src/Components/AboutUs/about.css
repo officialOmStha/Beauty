@@ -7,18 +7,58 @@
 
 .about-container{
     width: 100%;
-    height: 100vh;
+    height: fit-content;
     padding-left: 10%;
     background-color: var(--secondary-color);
+    padding-bottom: 10vh;
 }
 
 .about-intro{
     width: 70%;
     padding-left: 5%;
-    padding-top: 40vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     font-size: 3.5rem;
     color: var(--primary-text);
 }
+
+.about-secc{
+    width: 90%;
+}
+.about-card{
+    width: 100%;
+    display: flex;
+}
+
+.card-left{
+    width: 40%;
+    /* background-color: red; */
+    font-size: 1.5rem;
+    padding: 15vh 0 5% 5%;
+}
+
+.card-right{
+    width: 40%;
+    margin-left: 10%;
+    height: 60vh;
+}
+
+.profile-img{
+    width: 90%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.profile-img img{
+    width: 100%;
+    height: auto;
+}
+
+.profile-img::-webkit-scrollbar{
+    display: none !important;
+}
+
+
 
 @media(max-width: 600px){
     .about-container{

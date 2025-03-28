@@ -1,3 +1,10 @@
+:root{
+    --primary-color: #FCE8E6;
+    --secondary-color: #E6D0DE;
+    --primary-text: #3E3E3E;
+    --secondary-text: #7A3E58;
+   }
+
 *{
     margin: 0;
     padding: 0;
@@ -8,12 +15,12 @@ header{
     width: 100%;
     position: fixed;
     display: flex;
-    background-color: orange;   
+    background-color: var(--secondary-text);   
     height: 10vh;
     padding-left: 10%;
     gap: 30%;
     align-items: center;
-    color: white;
+    color: var(--primary-color);
 }
 
 nav{
@@ -43,7 +50,8 @@ nav a{
 }
 
 nav a:hover{
-    background-color: rgb(105, 72, 10);
+    color: var(--secondary-color);
+    background-color: var(--primary-text);
 }
 
 nav .icc{
